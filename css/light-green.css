@@ -1,0 +1,47 @@
+.header .nav ul li a:hover,
+body.dark .header .nav ul li a:hover,
+.couple-section .couple h3,
+.couple-section .couple i.fa-heart,
+.couple-section .social-icon a i,
+.story-section .story-text h3,
+.story-section .story-item i,
+.event-section .event-item span,
+.people-section .people-items-inner .social-icon a i,
+.btn-1:hover,
+.preloader .loader i
+{
+    color:#0dcebd;
+}
+
+.couple-section .couple img ,
+.couple-section .social-icon a i,
+.event-section .event-item-inner:before,
+body.dark .people-section .filter-btn.active,
+.people-section .people-items-inner .social-icon a i,
+.btn-1
+{
+    border-color: #0dcebd;
+}
+.preloader .loader::before
+{
+    border-right: 3px solid #0dcebd;
+}
+
+
+.couple-section .social-icon a:hover i,
+.event-section,
+.people-section .filter-btn.active,
+.people-section .people-items-inner .social-icon a:hover i,
+.rsvp-section, 
+.btn-1,
+.setting .s-toggle-btn
+{
+    background-color: #bf74f9;
+    background-image: linear-gradient(0deg, #bf74f9 0%, #08dfbd 68%, #46ffea 100%);
+    color:white;
+}
+.footer .footer-content .couple-name img,
+.event-section .event-item-inner img  
+{
+    filter: hue-rotate(180deg);
+}
